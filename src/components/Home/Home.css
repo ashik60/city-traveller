@@ -1,6 +1,9 @@
 .home{
-    background-image: "https://st3.depositphotos.com/6741230/36765/v/950/depositphotos_367653100-stock-illustration-bus-stop-residential-area-vector.jpg";
-    background-size: 100vh;
-    background-repeat: no-repeat;
+    background: url("https://i.ibb.co/qNmz9Mp/Bg.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
 }
 

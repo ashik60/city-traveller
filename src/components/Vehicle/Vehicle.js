@@ -11,7 +11,7 @@ const Vehicle = (props) => {
     return (
         <div
             onClick={() => toTravelPage(vehicleType)}
-            className="card mr-2 mt-5"
+            className="card p-2 mr-2 mt-5"
             style={{ width: "15rem" }}
         >
             <img className="card-img-top" width="80%" height="200px" src={vehicleImage} alt="Card cap"></img>

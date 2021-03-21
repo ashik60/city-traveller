@@ -84,24 +84,24 @@ const Booking = () => {
                                     {targetVehicle.fare.map((f) => (
                                         <div className="p-2">
                                             <div className="row  mt-2">
-                                                <div className="col-xs-3 col-md-3">
+                                                <div className="col-3">
                                                     <img
                                                         width="50px"
                                                         src={targetVehicle.vehicleImage}
                                                         alt=""
                                                     />
                                                 </div>
-                                                <div className="col-xs-3 col-md-3">
-                                                    <h4>{targetVehicle.vehicleType}</h4>
+                                                <div className="col-3">
+                                                    <h6>{targetVehicle.vehicleType}</h6>
                                                 </div>
-                                                <div className="col-xs-3 col-md-3">
-                                                    <h4>
+                                                <div className="col-3">
+                                                    <h6>
                                                         <FontAwesomeIcon icon={faUserFriends} />
                                                         {targetVehicle.people}
-                                                    </h4>
+                                                    </h6>
                                                 </div>
-                                                <div className="col-xs-3 col-md-3">
-                                                    <h4>${f}</h4>
+                                                <div className="col-3">
+                                                    <h6>${f}</h6>
                                                 </div>
                                             </div>
                                         </div>

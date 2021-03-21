@@ -21,7 +21,6 @@ const Booking = () => {
     }, []);
 
     const targetVehicle = vehicles.find(({ vehicleType }) => vehicleType === vehicle) || "";
-    console.log(targetVehicle);
 
     const onSearch = (event) => {
         event.preventDefault();
@@ -63,6 +62,12 @@ const Booking = () => {
                                             placeholder="Destination"
                                             onChange={handleChange}
                                         ></input>
+                                    </div>
+                                    <div>
+                                        <label>Date </label>
+                                        <br />
+                                        <input type="date" className="date" name="date"></input>
+                                        <br />
                                     </div>
                                     <button type="submit" className="btn btn-primary">
                                         Search

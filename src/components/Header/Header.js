@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div>
             <div className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 ">
-                <h5 className="my-0 mr-md-auto font-weight-normal">City Travellers</h5>
+                <h5 className="my-0 mr-md-auto h2  font-weight-normal">City Travellers</h5>
                 <nav className="my-2 my-md-0 mr-md-3">
                     <Link to="/" className="p-2 text-dark">
                         Home

@@ -9,20 +9,17 @@ const loactions = [
         lng: 90.4125,
     },
     {
-        id: 1,
+        id: 2,
         lat: 23.901,
         lng: 90.4088,
     },
     {
-        id: 1,
+        id: 3,
         lat: 23.7932,
         lng: 90.2713,
     },
 ];
 
-const Map = () => {
-    return <GoogleMap defaultZoom={10} defaultCenter={{ lat: 23.8103, lng: 90.4125 }} />;
-};
 
 const WrappedMap = withScriptjs(
     withGoogleMap((props) => (
